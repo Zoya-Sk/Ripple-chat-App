@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "*",
+        origin: "https://ripple-chat-app-eight.vercel.app",
         methods: ["GET", "POST"],
         credentials: true,
     }
