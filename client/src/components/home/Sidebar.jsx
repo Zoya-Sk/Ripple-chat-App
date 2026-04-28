@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { removeToken } from '../../redux/slices/Auth';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
-import { setUserDetails } from '../../redux/slices/user';
+import { setUserDetails } from '../../redux/slices/User';
 import axios from 'axios';
 
 const Sidebar = ({ setChatUserId, chatUserId }) => {  // ✅ chatUserId prop add kiya

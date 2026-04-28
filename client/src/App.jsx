@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import Signup from './pages/Signup'
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'  // ✅ Navigate import missing tha
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import Login from './pages/Login'
 import Home from './pages/Home'
 import { Toaster } from 'react-hot-toast'
 import { useSelector, useDispatch } from 'react-redux'
 import io from "socket.io-client"
-import { setSocket, setAllOnlineUsers } from './redux/slices/socket'
+import { setSocket, setAllOnlineUsers } from './redux/slices/Socket'
 
 const App = () => {
   const { token } = useSelector((state) => state.auth);

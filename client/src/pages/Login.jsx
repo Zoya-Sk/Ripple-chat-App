@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { setToken } from '../redux/slices/Auth';
-import { setUserDetails } from '../redux/slices/user';
+import { setUserDetails } from '../redux/slices/User';
 
 const Login = () => {
     const [formData, setFormData] = useState({
